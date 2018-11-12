@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Bank Account App</string>
+    <string name="fullname">Nome Completo</string>
+    <string name="pf">Pessoa Física</string>
+    <string name="pj">Pessoa Jurídica</string>
+    <string name="cpf" translatable="false">CPF</string>
+    <string name="cnpj" translatable="false">CNPJ</string>
+    <string name="pr" translatable="false">PR</string>
+    <string name="sc" translatable="false">SC</string>
+    <string name="rs" translatable="false">RS</string>
+    <string name="credit_card">Cartão de Crédito</string>
+    <string name="card_insurance">Seguro do Cartão</string>
+    <string name="createAccount">Criar Conta</string>
+    <string name="account_info">Informações da Conta</string>
+    <string name="yes">Sim</string>
+    <string name="no">Não</string>
+
+    <string-array name="states">
+        <item>@string/pr</item>
+        <item>@string/rs</item>
+        <item>@string/sc</item>
+    </string-array>
+</resources>

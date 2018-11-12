@@ -1,0 +1,13 @@
+package com.example.i857501.contactsapp.data;
+
+import android.arch.persistence.room.Database;
+import android.arch.persistence.room.RoomDatabase;
+
+import com.example.i857501.contactsapp.Contact;
+
+@Database(entities = {Contact.class}, version = 1, exportSchema = false)
+public abstract class AppDatabase extends RoomDatabase {
+
+    public abstract ContactDAO contactDAO();
+
+}

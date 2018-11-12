@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Contacts App</string>
+    <string name="name">Name</string>
+    <string name="email">E-mail</string>
+    <string name="save">Save</string>
+    <string name="delete_contacts">Delete Contacts</string>
+    <string name="selected">selected</string>
+    <string name="do_you_confirm">Do you confirm?</string>
+    <string name="delete_contact">Delete Contact</string>
+    <string name="phone">Phone</string>
+    <string name="contact_saved">Contact saved</string>
+    <string name="contacts_deleted">Contact(s) deleted</string>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Bank Account App</string>
+    <string name="fullname">Full Name</string>
+    <string name="pf">Person</string>
+    <string name="pj">Company</string>
+    <string name="credit_card">Credit Card</string>
+    <string name="card_insurance">Card Insurance</string>
+    <string name="createAccount">Create Account</string>
+    <string name="account_info">Account Information</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+</resources>

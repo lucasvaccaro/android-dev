@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Bookshelf App</string>
+    <string name="title">Title</string>
+    <string name="author">Author</string>
+    <string name="nr_of_pages">Nr. of Pages</string>
+    <string name="pub_year">Pub. Year</string>
+    <string name="save">Save</string>
+
+    <!-- book categories -->
+    <string name="fiction">Fiction</string>
+    <string name="novel">Novel</string>
+    <string name="bio">Biography</string>
+    <string name="young_adult">Young Adult</string>
+    <string name="delete">Delete</string>
+    <string name="load_fail">Loading failed</string>
+    <string name="save_fail">Failed to save book</string>
+    <string name="save_success">Book saved</string>
+    <string name="delete_fail">Failed to delete</string>
+    <string name="delete_success">Book deleted</string>
+    <string name="do_you_conf">Do you confirm?</string>
+    <string name="search">Search</string>
+    <string name="type_to_search">Type to search</string>
+    <string-array name="categories">
+        <item>@string/fiction</item>
+        <item>@string/novel</item>
+        <item>@string/bio</item>
+        <item>@string/young_adult</item>
+    </string-array>
+</resources>

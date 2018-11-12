@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:layout_margin="12dp">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:id="@+id/fullname"
+        android:hint="@string/fullname"
+        android:layout_marginBottom="8dp"/>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/person_type"
+        android:orientation="horizontal"
+        android:layout_marginBottom="5dp">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/pf"
+            android:text="@string/pf"
+            android:checked="true"
+            android:layout_marginEnd="5dp"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/pj"
+            android:text="@string/pj"/>
+    </RadioGroup>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cpf_cnpj"
+        android:inputType="text"
+        android:hint="@string/cpf"
+        android:layout_marginBottom="8dp"/>
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/state"
+        android:layout_marginBottom="5dp"
+        android:entries="@array/states">
+    </Spinner>
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/city"
+        android:layout_marginBottom="8dp">
+    </Spinner>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/credit_card"
+        android:text="@string/credit_card"
+        android:layout_marginBottom="5dp"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/card_insurance"
+        android:text="@string/card_insurance"
+        android:enabled="false"
+        android:layout_marginBottom="8dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:backgroundTint="@color/colorAccent"
+        android:onClick="createAccount"
+        android:text="@string/createAccount"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>
